@@ -1,0 +1,90 @@
+.rendu{
+    color: green;
+}
+.nonrendu{
+    color: red;
+}
+.log{
+  
+  text-decoration: none;
+  margin: 3px;
+  width: 100px;
+}
+
+
+.ajoutbtn{
+    display: flex;
+    align-self: flex-end;
+    text-decoration: none;
+    margin: 3px;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.contain{
+    display: flex;
+    
+    flex-basis: 40%;
+    align-items: flex-start;
+}
+.demo-table {
+  margin-top: 20px;
+    width: 100%;
+  }
+  
+  .mat-column-demo-rendu {
+    width: 32px;
+    border-right: 1px solid currentColor;
+    padding-right: 24px;
+    text-align: center;
+  }
+  
+  .mat-column-demo-nom {
+    padding-left: 16px;
+    font-size: 20px;
+  }
+  
+  .mat-column-demo-dateDeRendu {
+    font-style: italic;
+  }
+  
+  .mat-column-demo-rendu {
+    width: 32px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .ass{
+    display: flex;
+    flex-basis: 25%;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+  }
+  .ass-p{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px;
+    font-size: larger;
+  }
+  .assigns{
+    text-decoration: none;
+   
+    margin-left: 200px;
+    font-size: larger;
+  }
+  .assigns-d{
+    margin-left: 450px;
+    
+    font-size: x-large;
+  }
+  .assigns-n{
+    text-decoration: none;
+   
+    margin-left: 200px;
+    font-size: larger;
+  }
